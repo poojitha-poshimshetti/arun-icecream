@@ -6,7 +6,7 @@
     
 }
 body {
-    background-color: lightcyan;
+    background-color: #ffffff;
 }
 nav{
     display: flex;
@@ -195,7 +195,6 @@ nav .create .fav:hover{
    .pets{
     font-size: 25px;
     color:lightcoral ;
-    
    }
    .pen{
     text-align: center;
