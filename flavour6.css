@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+.flavour-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 300px;
+    background-color: #fff;
+    box-shadow:6px 6px 6px 6px #111;
+    margin: 10px 0px 40px 300px;
+ }
+ .pic{
+    width: 35%;
+    height: 100%;
+    margin-right: 20px;
+  }
+  .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+.text h1{
+text-align: center;
+padding-bottom: 20px;
+
+}
+.text{
+    width: 60%;
+    margin: 0px 10px;
+}
+.text p{
+    font-size: 1.02rem;
+    
+}
+.mens{
+    text-align: center;
+    color: lightcoral;
+    font-size: 25px;
+    margin-top: 50px;
+
+ }
+ 
+.info{
+    background-color: crimson;
+    font-size: 20px;
+}
+ 

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about-section {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    padding: 80px 0;
+    background: linear-gradient(to right,pink, #fff);
+}
+
+.about-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+.about-title {
+    color: lightcoral;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-subtitle {
+    color: hotpink;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.about-text {
+    line-height: 1.8;
+}
+
+
+
+/*styles for mission, vision, values sections */
+.mvv-section {
+    background: linear-gradient(45deg,lightblue, #FFF9F0);
+    padding: 60px 0;
+    margin: 40px 0;
+}
+
+.mvv-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+
+}
+
+.mvv-item {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+.mvv-item .accent-title{
+    text-align: center;
+}
+
+
+
+.accent-title {
+    color: lightcoral;
+    margin-bottom: 20px;
+}
+.cards-container{
+    display: flex;
+    height: 300px;
+    width: 95%;
+    margin:4% 4% 0 4%;
+    overflow: scroll;
+    gap: 30px;
+    margin-left: 500px;
+    
+     
+    
+
+}
+.cards-container .circle-card:hover{
+    transform: scale(1.06);
+    transition: 0.6s;
+}
+
+.cards-container::-webkit-scrollbar{
+    display: none;
+}
+
+.cards-container .circle-card{
+    text-align: center;
+   width: 110px;
+   height: 110px;
+   cursor: pointer;
+  
+}
+
+.cards-container .circle-card .image-card img{
+    width: 110px;
+    height: 110px;
+    border-radius: 90%;
+    border: 2px solid #FCCCC7;
+    padding: 4px;
+    
+}
+
+.cards-container .circle-card p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #531036;
+}
+
+.name{
+    padding-top: 70px;
+    margin-left: 700px;
+    color: lightcoral;
+}
+
