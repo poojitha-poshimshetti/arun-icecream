@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#ffffff;
+}
+/* navbar session start */
+a {
+    text-decoration: none;
+    color:lightcoral;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid gold;
+    border-radius: 2%;
+}
+.navbar-logo{
+    display: flex;
+}
+.navbar-logo img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+
+.create {
+    display: flex;
+    
+}
+
+.create .attribute {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.create .attribute li {
+    position: relative;
+}
+
+.create .attribute li a {
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 600;
+}
+.create .attribute li a:hover{
+    text-decoration: underline;
+    color: lightcoral;
+}
+.create .attribute li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 120px;
+    top: 100%;
+}
+
+.create .attribute li .dropdown-content a {
+    padding: 8px 12px;
+    display: block;
+    color: #333;
+}
+.create .attribute li .dropdown-content a:hover {
+    color: lightcoral;
+}
+.create .attribute li:hover .dropdown-content {
+    display: block;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchbar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.searchbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.account a {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #111;
+}
+
+.account a:hover {
+    background-color: #f1f1f1;
+}
+/* navbar session ends */
