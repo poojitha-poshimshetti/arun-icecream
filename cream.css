@@ -113,3 +113,163 @@ nav {
     background-color: #f1f1f1;
 }
 /* navbar session ends */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+.pop{
+    position: relative;
+    height:85vh;
+}
+.sub{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   }
+
+
+   .cards{
+    display: flex;
+    text-align: center;
+    
+    
+ }
+ .box{
+     border: 2px solid black;
+     background-color:rgb(220, 195, 220);
+     color: black;
+     max-width: 20%;
+     margin: 10px;
+     margin-left: 180px;
+     transition: transform 340;
+     border-radius:3% ;
+     height: 400px;
+     box-shadow:6px 6px 11px 11px black;
+     margin-bottom: 70px;
+ }
+
+ .box img {
+    width: 100%;
+    height: 70%;
+ }
+
+ .box h2 {
+    font-size: 1.8rem;
+ }
+ .box p{
+    font-size: 0.7rem;
+    
+ }
+ .box h1{
+    
+    margin:10px 50px 10px 50px;
+    font-size:20px;
+
+ }
+
+.cards .box:hover{
+     transform: scale(1.1);
+ }
+ .men{
+    text-align: center;
+    color: lightcoral;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+ }
+ /* footer starts */
+ .footer {
+    background-color:lightcyan;
+    color: #111;
+    padding: 10px 0;
+    }
+    
+    .footer .foot {
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .footer .col {
+    margin-bottom: 10px;
+    }
+    .footer .col li{
+        cursor: pointer;
+    }
+    .footer .col p{
+        cursor: pointer;
+    }
+    .footer .col li i{
+        padding-right: 7px;;
+    }
+    .footer .col p i{
+        padding-right: 7px;
+        margin-bottom: 15px;;
+    }
+    .footer .col h3{
+        margin-bottom: 15px;
+        
+    }
+    .footer .hov:hover{
+        text-decoration: underline;
+    }
+
+    
+    .footer h3 {
+    color:lightcoral;
+    margin-top: 0;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .footer ul li {
+    margin-bottom: 15px;
+    }
+    
+    
+    .footer ul li  {
+    color:#111;
+    text-decoration: none;
+    }
+    
+    .footer ul li:hover {
+    color:darkgoldenrod;
+    }
+    .footer .about{
+        color:lightcoral;
+        margin-top: 0;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .footer .about:hover{
+        text-decoration: underline;
+    }
+    .footer .col p:hover{
+        color:darkgoldenrod ;
+    }
+    
+    .footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    .footer .copyright p {
+    margin-bottom: 30px;
+    
+    }
+     
+    /* footer ends */
