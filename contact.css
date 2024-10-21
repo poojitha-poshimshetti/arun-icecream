@@ -1,4 +1,5 @@
-/* navbar session start */
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     box-sizing: border-box;
     background-color:#ffffff;
 }
+/* navbar session start */
 a {
     text-decoration: none;
     color:lightcoral;
@@ -113,12 +115,56 @@ nav {
     background-color: #f1f1f1;
 }
 /* navbar session ends */
-.pets{
-    font-size: 25px;
-    color:lightcoral ;
-    padding-left: 600px;
-   }
-   /* footer starts */
+
+#contact {
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact h1 {
+  color: #333;
+}
+
+#contact p {
+  color: #666;
+}
+
+#contact form {
+  margin-top: 20px;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact address {
+  margin-top: 20px;
+}
+
+#contact address p {
+  color: #222;
+}
+#contact address p i {
+   padding-right: 7px;
+}
+/* footer starts */
 .footer {
     background-color:lightcyan;
     color: #111;
@@ -209,4 +255,5 @@ nav {
     }
      
     /* footer ends */
-   
+
+
